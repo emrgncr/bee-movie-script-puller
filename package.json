@@ -1,0 +1,19 @@
+{
+  "name": "bee-movie-script-puller",
+  "version": "1.0.0",
+  "description": "a nodejs library that takes words from the bee movie script",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/emrgncr/bee-movie-script-puller.git"
+  },
+  "author": "emrgncr",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/emrgncr/bee-movie-script-puller/issues"
+  },
+  "homepage": "https://github.com/emrgncr/bee-movie-script-puller#readme"
+}
