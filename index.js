@@ -1,6 +1,6 @@
 const { randomInt } = require('crypto');
 const fs = require('fs');
-const filepath = './bee\ movie\ script'
+const filepath = `${__dirname}/bee\ movie\ script`
 const text = fs.readFileSync(filepath);
 const lines = text.toString().split('\n');
 
