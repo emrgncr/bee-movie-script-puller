@@ -27,7 +27,7 @@ const get_random_line_with_word_count = (min_l,max_l,max_tries) => {
     while(max_tries --> 0){
         const line = get_random_line();
         const words = line.split(' ').length;
-        console.log(words);
+        // console.log(words);
         if(words >= min_l && words <= max_l) return line;
     }
     return get_line(4);
